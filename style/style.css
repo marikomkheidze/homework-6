@@ -1,4 +1,33 @@
 /* background */
+.background {
+    position: relative;
+}
 .image {
-    width: 1540px;
+    width: 100%;
+}
+.dwafts{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.image2 {
+    width: 400px;
+}
+.sun {
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+.image3 {
+    width: 200px;
+
+}
+.image4 {
+    width: 200px;
+}
+.snowwhite {
+    position: absolute;
+    bottom: 150px;
+    right: 750px;
+
 }
