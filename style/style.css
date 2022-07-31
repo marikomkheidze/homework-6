@@ -31,3 +31,27 @@
     right: 750px;
 
 }
+.image5 {
+    width: 70px;
+}
+.bird1 {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}
+.image6 {
+    width: 90px;
+}
+.bunny {
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+}
+.image7 {
+    width: 70px;
+}
+.chimpunk {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
