@@ -7,8 +7,7 @@
 }
 .dwafts{
     position: absolute;
-    bottom: 10px;
-    left: 20px;
+    animation: dwafts 20s infinite;
 }
 .image2 {
     width: 400px;
@@ -54,4 +53,15 @@
     position: absolute;
     bottom: 100px;
     right: 200px;
+}
+@keyframes dwafts {
+    from {
+        bottom: 10px;
+        left: 20px;
+    }
+    to {
+        bottom: 10px;
+        left: 1100px;
+    }
+
 }
