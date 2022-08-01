@@ -4,6 +4,7 @@
 }
 .image {
     width: 100%;
+    height: 700px;
 }
 .dwafts{
     position: absolute;
@@ -12,10 +13,11 @@
 .image2 {
     width: 400px;
 }
-.sun {
+.sun { 
     position: absolute;
     top: 20px;
     left: 900px;
+    animation: sun 7s infinite;
 }
 .image3 {
     width: 200px;
@@ -28,6 +30,7 @@
     position: absolute;
     bottom: 150px;
     right: 750px;
+    animation: snowwhite 10s infinite;
 
 }
 .image5 {
@@ -45,12 +48,15 @@
     animation: bunny 5s infinite;
 }
 .image7 {
-    width: 70px;
+    width: 90px;
 }
-.chimpunk {
+.cloud {
     position: absolute;
-    bottom: 100px;
-    right: 200px;
+    animation: cloud 7s infinite;
+}
+.cloud2 {
+    position: absolute;
+    animation: cloud2 7s infinite;
 }
 
 /* key frames */
@@ -89,4 +95,40 @@
         left: 750px;}
     100% {top: 450px;
         left: 870px;}
+}
+
+@keyframes sun {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes snowwhite {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(20deg);}
+    50%  {transform: rotate(0deg);}
+    75%  {transform: rotate(20deg);}
+    100% {transform: rotate(0deg);}
+}
+@keyframes cloud {
+    from {
+        top: 20px;
+        left: 40px;
+    }
+    to {
+        top: 20px;
+        left: 800px;
+    }
+}
+@keyframes cloud2 {
+    from {
+        top: 80px;
+        left: 20px;
+    }
+    to {
+        top: 80px;
+        left: 600px;
+    }
 }
