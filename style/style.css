@@ -52,11 +52,11 @@
 }
 .cloud {
     position: absolute;
-    animation: cloud 7s infinite;
+    animation: cloud 7s infinite alternate;
 }
 .cloud2 {
     position: absolute;
-    animation: cloud2 7s infinite;
+    animation: cloud2 7s infinite alternate;
 }
 
 /* key frames */
